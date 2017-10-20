@@ -23,3 +23,12 @@ Exercise 3: Print and Count the number of times an item appears in a list below
 """
 mylist = ["Hi", 3, 5, 2, "Ho", "Hi"]
 print(mylist.count("Ho"))
+
+"""
+Create a list that prints only the even numbers of the list below
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+for i in a:
+    if i%2 ==0:
+        print (i)
+"""

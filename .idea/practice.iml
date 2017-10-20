@@ -8,6 +8,22 @@
     <orderEntry type="module" module-name="Ehiaghe" />
     <orderEntry type="module" module-name="site" />
     <orderEntry type="module" module-name="ehiaig.github.io" />
+    <orderEntry type="module" module-name="karan_projects" />
+    <orderEntry type="module" module-name="contactmanager" />
+    <orderEntry type="module" module-name="pickle_project" />
+    <orderEntry type="module" module-name="karan_projects" />
+    <orderEntry type="module" module-name="facebook" />
+    <orderEntry type="module" module-name="mest-facebook-clone" />
+    <orderEntry type="module" module-name="mest-facebook-clone" />
+    <orderEntry type="module" module-name="mest-facebook-clone" />
+    <orderEntry type="module" module-name="mest-facebook" />
+    <orderEntry type="module" module-name="howtoruntest" />
+    <orderEntry type="module" module-name="exercism" />
+    <orderEntry type="module" module-name="postgres" />
+    <orderEntry type="module" module-name="facebook" />
+    <orderEntry type="module" module-name="facebook" />
+    <orderEntry type="module" module-name="mest-facebook" />
+    <orderEntry type="module" module-name="facebook" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

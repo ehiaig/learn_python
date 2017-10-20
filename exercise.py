@@ -1,3 +1,4 @@
+import random
 """
 Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
 between 2000 and 3200 (both included).
@@ -106,3 +107,21 @@ for key, value in enumerate(a):
 
 #enumerate is used to iterate over list, and text. The output is usually a tuple with index and value
 
+"""
+Generate a password with length "passlen" with no duplicate characters in the password
+
+Solution:
+s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+passlen = 8
+p =  "".join(random.sample(s,passlen))
+print (p)
+"""
+
+"""
+Question:
+Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+"""
+text = (input('Enter two lines:'))
+
+print(text.upper())

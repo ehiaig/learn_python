@@ -1,4 +1,3 @@
-import random
 """
 #Solve for a palindrome
 word = str(input('Enter a word: '))
@@ -12,29 +11,31 @@ else:
 """
 
 """
-Create a list that prints only the even numbers of the list below
-a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Write a function, that accepts a string as an argument, and returns either True or False, whether the string can be made into a palindrome or not.
 
-for i in a:
-    if i%2 ==0:
-        print (i)
+For example: 
+aabb is not a palindrome. However, it can be rearranged to form a palindrome – even two: abba and baab
+
+Algorithm:      
+
+- Break word into list, 
+- Count the items in list.
+    - If even, break into 2 halfs,
+    - Else, get the middle letter, 
+- Break the list into 2 halfs. 
+- check if the first list is equal to the reverse of the second list
 """
 
-"""
-Generate a password with length "passlen" with no duplicate characters in the password
+word = str(input("Enter the word to be checked: "))
+#word = list(word)
 
-Solution:
-s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
-passlen = 8
-p =  "".join(random.sample(s,passlen))
-print (p)
-"""
+breakword = int(round(len(word)/2.0))
+result, b = [word[i:i+breakword] for i in range(0,len(word),breakword)]
 
-"""
-Question:
-Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
-Suppose the following input is supplied to the program:
-"""
-text = (input('Enter two lines:'))
+rvs_word = b [::-1]
+if result==rvs_word:
+    print("Yay")
 
-print(text.upper())
+# def palin():
+    
+

@@ -24,7 +24,7 @@ for row in range(3):
 #We can also create the christmas tree with the code below
 for i in range(2,1,-1):
     for j in range(1,6,2):
-        print(" "*i, "*"*j, " "*i, "\n")
+        print(" "*i, "*"*j, " "*i)
         j += 3
         i-=1
 

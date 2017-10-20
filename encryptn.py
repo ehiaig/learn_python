@@ -9,7 +9,6 @@ We'll call these two the starting and ending letters.
 For example:
 XAYXPYXPYXLYXEY = APPLE
 
-
 Algorithm:
 1.
 """
@@ -27,4 +26,5 @@ for index, character in enumerate(text): #using enumerate is the python way of g
     if text[index - 1] == 'P' and text[index +1] == 'K':
         hidden_word += character
 print(hidden_word)
+
 

@@ -183,3 +183,16 @@ for character in character_array:
 
 secret_message = ''.join(secret_message)
 print (secret_message)
+
+#Dictionaires can take:
+# - .items()
+# - .keys()
+# - .values()
+my_dict = {'Claver':'Yellow', 'Andrew':'Blue', 'Frank':'Red'} #How to create a dict
+print(my_dict['Claver']) #Access dict
+my_dict['Claver'] = 'Pink' #Modifying the values in a dictionary
+
+#To iterate through the dictionary:
+for person, color in my_dict.items():
+    print("{} is wearing a {} shirt".format(person, color))
+
