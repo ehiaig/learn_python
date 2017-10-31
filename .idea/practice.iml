@@ -24,6 +24,11 @@
     <orderEntry type="module" module-name="facebook" />
     <orderEntry type="module" module-name="mest-facebook" />
     <orderEntry type="module" module-name="facebook" />
+    <orderEntry type="module" module-name="facebook-clone-mest" />
+    <orderEntry type="module" module-name="flaskProject" />
+    <orderEntry type="module" module-name="ORM" />
+    <orderEntry type="module" module-name="messenger-accra" />
+    <orderEntry type="module" module-name="NewFlask" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

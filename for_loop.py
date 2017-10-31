@@ -3,10 +3,8 @@
 for i in range(1,11):
     for j in range(1,11):
         print("{}*{} ={}".format(i,j,(i*j)))
-
 """
 
-#create the christmas tree below, You have to run this code using the terminal
 """
   *
  ***
@@ -14,12 +12,12 @@ for i in range(1,11):
 """
 for row in range(3):
     for space in range(2-row):
-        print(" "),
+        print(" ", end='')
 
     for star in range (1+(row*2)):
-        print("*"),
+        print("*", end='')
 
-    print("\n")
+    print("")
 
 #We can also create the christmas tree with the code below
 for i in range(2,1,-1):

@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../NewFlask/.idea/NewFlask.iml" filepath="$PROJECT_DIR$/../NewFlask/.idea/NewFlask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ORM/.idea/ORM.iml" filepath="$PROJECT_DIR$/../ORM/.idea/ORM.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ContactManager/.idea/contactmanager.iml" filepath="$PROJECT_DIR$/../ContactManager/.idea/contactmanager.iml" />
       <module fileurl="file://$USER_HOME$/exercism/.idea/exercism.iml" filepath="$USER_HOME$/exercism/.idea/exercism.iml" />
       <module fileurl="file://$PROJECT_DIR$/../facebook/.idea/facebook.iml" filepath="$PROJECT_DIR$/../facebook/.idea/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../facebook-clone-mest/.idea/facebook-clone-mest.iml" filepath="$PROJECT_DIR$/../facebook-clone-mest/.idea/facebook-clone-mest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flaskProject/.idea/flaskProject.iml" filepath="$PROJECT_DIR$/../flaskProject/.idea/flaskProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/../howtoruntest/.idea/howtoruntest.iml" filepath="$PROJECT_DIR$/../howtoruntest/.idea/howtoruntest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../karan_projects/.idea/karan_projects.iml" filepath="$PROJECT_DIR$/../karan_projects/.idea/karan_projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../mest-facebook/.idea/mest-facebook.iml" filepath="$PROJECT_DIR$/../mest-facebook/.idea/mest-facebook.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/messenger-accra/.idea/messenger-accra.iml" filepath="$USER_HOME$/Desktop/messenger-accra/.idea/messenger-accra.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mest-facebook/.idea/mest-facebook.iml" filepath="$PROJECT_DIR$/../mest-facebook/.idea/mest-facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mest-facebook-clone/.idea/mest-facebook-clone.iml" filepath="$PROJECT_DIR$/../mest-facebook-clone/.idea/mest-facebook-clone.iml" />
       <module fileurl="file://$PROJECT_DIR$/../postgres/.idea/postgres.iml" filepath="$PROJECT_DIR$/../postgres/.idea/postgres.iml" />
