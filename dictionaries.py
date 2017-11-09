@@ -35,7 +35,13 @@ if "kumquat" in fruits.keys():
 else:
     print('No kumquat')
 
+enth_level = {'andrew':5, 'terrence':-5, 'precious':-200}
+enth_level['andrew']
+enth_level.get('John') #This would return nothing since John is not in the dictionary
+enth_level['John']=99 # This would add John to the dictionary
 
+#By default, a dictionary gives you the keys. But when you say .values(),
+# you get all the values in the dictioanry
 """
 Exercise 1:
 its the year 2040. Jacon Zuma has taken over the world and declare the follwoing words swear words:
@@ -185,9 +191,12 @@ secret_message = ''.join(secret_message)
 print (secret_message)
 
 #Dictionaires can take:
-# - .items()
-# - .keys()
-# - .values()
+# - .items() which prints both keys and values in the dictionary
+# - .keys() by default, the keys is accessed in a dictioanry
+# - .values() which pints the equivalent value of the supplied key
+# .pop() which removes a the value of the given key.
+# .popitem() removes the given key and value in the dictionary
+
 my_dict = {'Claver':'Yellow', 'Andrew':'Blue', 'Frank':'Red'} #How to create a dict
 print(my_dict['Claver']) #Access dict
 my_dict['Claver'] = 'Pink' #Modifying the values in a dictionary
@@ -195,4 +204,7 @@ my_dict['Claver'] = 'Pink' #Modifying the values in a dictionary
 #To iterate through the dictionary:
 for person, color in my_dict.items():
     print("{} is wearing a {} shirt".format(person, color))
+
+print(my_dict.pop('Frank'))
+
 
