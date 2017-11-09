@@ -8,27 +8,29 @@
     <orderEntry type="module" module-name="Ehiaghe" />
     <orderEntry type="module" module-name="site" />
     <orderEntry type="module" module-name="ehiaig.github.io" />
-    <orderEntry type="module" module-name="karan_projects" />
     <orderEntry type="module" module-name="contactmanager" />
     <orderEntry type="module" module-name="pickle_project" />
-    <orderEntry type="module" module-name="karan_projects" />
     <orderEntry type="module" module-name="facebook" />
     <orderEntry type="module" module-name="mest-facebook-clone" />
     <orderEntry type="module" module-name="mest-facebook-clone" />
     <orderEntry type="module" module-name="mest-facebook-clone" />
     <orderEntry type="module" module-name="mest-facebook" />
     <orderEntry type="module" module-name="howtoruntest" />
-    <orderEntry type="module" module-name="exercism" />
     <orderEntry type="module" module-name="postgres" />
     <orderEntry type="module" module-name="facebook" />
     <orderEntry type="module" module-name="facebook" />
     <orderEntry type="module" module-name="mest-facebook" />
     <orderEntry type="module" module-name="facebook" />
-    <orderEntry type="module" module-name="facebook-clone-mest" />
-    <orderEntry type="module" module-name="flaskProject" />
     <orderEntry type="module" module-name="ORM" />
-    <orderEntry type="module" module-name="messenger-accra" />
     <orderEntry type="module" module-name="NewFlask" />
+    <orderEntry type="module" module-name="twiliobot" />
+    <orderEntry type="module" module-name="mybot" />
+    <orderEntry type="module" module-name="fact_app" />
+    <orderEntry type="module" module-name="autopsy" />
+    <orderEntry type="module" module-name="blog" />
+    <orderEntry type="module" module-name="larashop" />
+    <orderEntry type="module" module-name="contactmanager" />
+    <orderEntry type="module" module-name="facebook-clone-mest" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

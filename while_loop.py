@@ -23,3 +23,11 @@ while i>=-1:
     else:
         print("{} is negative". format(i))
     i = i - 3
+
+
+i=0
+nums = range(10)
+while i<len(nums):
+    print(nums[i])
+    i+=1
+
